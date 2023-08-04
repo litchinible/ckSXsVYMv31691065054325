@@ -12,13 +12,13 @@ namespace UnityBuilderAction
     {
         private static readonly string Eol = Environment.NewLine;
         private static string APP_NAME = "SKibd Toilet Colorear";
-        private static string COMPANY_NAME = "1691077387973616670986";
+        private static string COMPANY_NAME = "1691111130722229908993";
         private static string BUILD_VERSION_NAME = "1.2.7";
         private static string PACKAGENAME = "com.animension.zoroto";
         private static string PATH_KEYSTORE = "data.keystore";
-        private static string KEYSTORE_PASS = "hdlpro";
-        private static string KEY_ALIAS_NAME = "hdlpro";
-        private static string KEY_ALIAS_PASS = "hdlpro";
+        private static string KEYSTORE_PASS = "mandiri";
+        private static string KEY_ALIAS_NAME = "mandiri";
+        private static string KEY_ALIAS_PASS = "mandiri";
 
         private static readonly string[] Secrets =
             {"androidKeystorePass", "androidKeyaliasName", "androidKeyaliasPass"};

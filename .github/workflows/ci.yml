@@ -7,7 +7,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  API: 1691077388687523223471
+  API: 1691111131362522480823
   pathOutputBuild: build/Android/Android.apk
   typeBuild: apk
 
@@ -138,7 +138,7 @@ jobs:
         with:
           targetPlatform: Android
           androidAppBundle: false
-          androidVersionCode: 1
+          androidVersionCode: 2
           buildMethod: UnityBuilderAction.BuildScript.Build
       - uses: actions/checkout@v3
         if: always()
